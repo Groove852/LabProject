@@ -12,12 +12,10 @@ namespace LabProject
 {
     public partial class TaskSelection_Form : Form
     {
+        private string SelectedCells;
 
-        Random rnd = new Random();
-        string SelectedCells;
-        int upperBorder;
-        int lowerBorder;
-        bool allOk = true;
+        private int upperBorder;
+        private int lowerBorder;
 
 
         //Конструктор класса TaskSelection_Form
